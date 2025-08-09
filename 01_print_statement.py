@@ -1,8 +1,8 @@
 # Lesson 1: The print() Statement
 # --------------------------------
 # In this lesson, you will learn how to use Python's print() function.
-
-# The print() function is used to display output to the console/terminal (screen).
+#
+# The print() function is used to display output of a program to the console/terminal (screen).
 # It’s one of the most commonly used functions in Python.
 # You can print strings (texts), numbers, and even variables.
 # The basic syntax of the print() function is:
@@ -39,7 +39,6 @@ print("The year is", 2025)  # prints strings and number together
 # Output: The year is 2025
 # You can mix strings and numbers in the same print statement.
 # Python adds a space automatically between values.
-
 
 # -------------------------------------------------
 # 4. Controlling spaces between values (sep)
