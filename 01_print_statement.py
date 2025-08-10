@@ -74,6 +74,7 @@ print("Hello" + " " + "World!") # space added manually
 # We can use str() to convert numbers to strings.
 print("The year is " + str(2025))  # converting number to string
 # Output: The year is 2025
+#
 # ..................
 # Why do we need string concatenation?
 # Concatenation refers to the process of combining two or more strings into a single, new string.
