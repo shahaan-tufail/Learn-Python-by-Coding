@@ -9,6 +9,7 @@
 # Syntax:
 #   print(value1, value2, ..., valueN)
 
+
 # -------------------------------------------------
 # 1. Printing text (called a "string")
 # -------------------------------------------------
@@ -21,6 +22,7 @@ print('Hello, Python!')   # using single quotes
 # Output: Hello, Python!
 # (Both work the same, but be consistent for readability.)
 
+
 # -------------------------------------------------
 # 2. Printing numbers
 # -------------------------------------------------
@@ -28,6 +30,7 @@ print('Hello, Python!')   # using single quotes
 print(2025)
 # Output: 2025
 # Python automatically converts numbers to strings when printing.
+
 
 # -------------------------------------------------
 # 3. Printing multiple values
@@ -39,6 +42,7 @@ print("The year is", 2025)  # prints strings and number together
 # Output: The year is 2025
 # You can mix strings and numbers in the same print statement.
 # Python adds a space automatically between values.
+
 
 # -------------------------------------------------
 # 4. Controlling spaces between values (sep)
@@ -53,6 +57,7 @@ print("Hello", "World", sep="-") # custom separator
 # Output: Hello-World
 # The sep parameter controls how values are separated in the output.
 # You can use any string as a separator, including empty strings.
+
 
 # -------------------------------------------------
 # 5. Joining strings together (concatenation)
@@ -87,6 +92,7 @@ print("Hello, " + input("What is your name? ") + "!")  # Asking for user input
 # Concatenation is a fundamental concept in programming and is widely used in various applications.
 # You"ll understand more about variables and input() and how to use them in future lessons.
 
+
 # -------------------------------------------------
 # 6. New lines (\n) and tabs (\t)
 # -------------------------------------------------
@@ -97,6 +103,7 @@ print("Item 1\tItem 2")         # \t = tab space
 # Output: Item 1    Item 2
 # The \n character creates a new line, while \t adds a tab space.
 # These are called escape sequences and are used to format text output.
+
 
 # -------------------------------------------------
 # 7. Ending a print differently (end)
@@ -114,6 +121,7 @@ print("World!")
 # You can use any string as the end character, including empty strings.
 # You can also use end="" to avoid a newline at the end of the print statement.
 
+
 # -------------------------------------------------
 # 8. Preserving spaces inside strings
 # -------------------------------------------------
@@ -121,6 +129,7 @@ print("  surrounded by spaces  ") # spaces are kept as they are
 # Output:   surrounded by spaces
 # Python preserves spaces inside strings, so leading and trailing spaces are kept.
 # This is useful when you want to maintain formatting in your output.
+
 
 # -------------------------------------------------
 # 9. Printing special characters
@@ -134,6 +143,7 @@ print('\'Hello\'')  # using backslash to escape quotes
 # You can also escape other special characters like backslashes themselves.
 print("This is a backslash: \\")  # escaping a backslash
 # Output: This is a backslash: \
+
 
 # -------------------------------------------------
 # 10. Printing formatted strings (f-strings)
@@ -149,6 +159,7 @@ print(f"My name is {name} and I am {age} years old.") # using f-string
 # This makes it easy to create dynamic messages based on variable values.
 # F-strings are prefixed with 'f' or 'F'.
 # F-strings are available in Python 3.6 and later.
+
 
 # -------------------------------------------------
 # Summary of Key Points
